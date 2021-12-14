@@ -9,7 +9,7 @@ h1#site-title {
 }
 
 .main-content {
-  background-color: lightskyblue;
+  background-color: ;
 }
 
 @media all and (min-width: 768px) {
@@ -118,6 +118,23 @@ article figure {
   font-size: 18px;
 }
 
+.welcome {
+  padding: 18px;
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: bold;
+  display: flex;
+  overflow: hidden;
+  background-color: white;
+  border: 3px solid lightskyblue;
+  margin-left: 33px;
+  margin-right: 33px;
+  object-position: center;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/564x/b0/fb/bd/b0fbbd7e126893cecbd55c95fcbea0c9.jpg");
+  color: white;
+}
+
 .active,
 .collapsible:hover {
   background-color: lightskyblue;
@@ -138,6 +155,13 @@ article figure {
 }
 li {
   padding: 5px;
+}
+li a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-transform: uppercase;
 }
 
 div#footer {
@@ -163,6 +187,18 @@ h1 {
   color: black;
   font-family: monospace;
   font-size: 60px;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  text-align: center;
+  object-position: center;
+  margin-bottom: -3px;
+  margin-top: 0;
+}
+
+h2 {
+  color: black;
+  font-family: monospace;
+  font-size: 45px;
   font-weight: bold;
   font-stretch: ultra-expanded;
   text-align: center;
